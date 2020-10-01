@@ -146,6 +146,60 @@
     .unidades article p {
         line-height: 1.8rem;
     }
+    /* Contato */
+    
+    .contato {
+        background-image: url(../img/textura1.png);
+    }
+    
+    .contato .mapa {
+        min-height: 560px;
+    }
+    
+    .contato .mapa iframe {
+        width: 100%;
+        min-height: 560px;
+        border: none;
+    }
+    
+    .contato .informacoes {
+        background-image: url('../img/textura2.png');
+        min-height: 560px;
+        padding: 30px;
+    }
+    
+    .contato h4 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    
+    .contato .formulario {
+        min-height: 500px;
+        padding: 30px;
+    }
+    /* Depoimentos */
+    
+    .depoimentos .titulo::after {
+        border-color: #fff;
+    }
+    
+    .depoimentos img {
+        width: 100px
+    }
+    
+    .depoimentos h4 {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+    /* Rodapé */
+    
+    .rodape {
+        background-image: url("../img/bg-rodape.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px o;
+    }
     /* Custom */
     
     nav.nav-extended .nav-wrapper {
